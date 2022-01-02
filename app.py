@@ -4,7 +4,7 @@ print("\x1B[9m \x1B[40m \x1B[32m")
 os.system("git remote remove upstream")
 
 def fileing(i):
-    with open("Readme.md","w") as file:
+    with open("README.md","w") as file:
        file.write("{} \n".format(i))
        file.close()
 
