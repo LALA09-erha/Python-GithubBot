@@ -1,3 +1,1 @@
-# About 
-
-Commit Github Manipulation With Python
+Sun 02 Jan 2022 
