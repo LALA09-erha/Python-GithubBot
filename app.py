@@ -5,11 +5,11 @@ os.system("git remote remove upstream")
 
 def fileing(i):
     with open("README.md","w") as file:
-       file.write("{} \n".format(i))
+       file.write("For Information : [HERE](https://github.com/LALA09-erha)\n {} \n".format(i))
        file.close()
 
 def load():
-    start_date = datetime.date(2022, 1, 1)
+    start_date = datetime.date(2021, 1, 1)
     end_date = datetime.date(2023, 12, 1)
     delta = datetime.timedelta(days=1)
     while (start_date <= end_date):
